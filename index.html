@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киберспортивные ставки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Киберспортивные ставки</h1>
+        <div id="events">
+            <div class="event">
+                <h2>Матч: Team A vs Team B</h2>
+                <p>Ставка на Team A: <button onclick="placeBet('Team A')">Сделать ставку</button></p>
+                <p>Ставка на Team B: <button onclick="placeBet('Team B')">Сделать ставку</button></p>
+            </div>
+            <div class="event">
+                <h2>Матч: Team C vs Team D</h2>
+                <p>Ставка на Team C: <button onclick="placeBet('Team C')">Сделать ставку</button></p>
+                <p>Ставка на Team D: <button onclick="placeBet('Team D')">Сделать ставку</button></p>
+            </div>
+        </div>
+        <div id="results">
+            <h2>Ваши ставки:</h2>
+            <ul id="betList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
